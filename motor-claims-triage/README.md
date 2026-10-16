@@ -90,15 +90,6 @@ Example:
 | 30 - 59 | Medium | Monitor |
 | 60+ | High | Senior review |
 
-## Power BI
 
-Use these files in Power BI:
-
-```text
-outputs/scored_claims.xlsx
-outputs/risk_summary.xlsx
-outputs/rule_impact_summary.xlsx
-```
-## Future scalability
 
 In a real business implementation, the Excel input could be replaced with approved SQL claims data. The same scoring logic could then feed a Power BI dashboard through a scheduled process.
